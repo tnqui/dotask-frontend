@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ngquiofficial.dotaskfrontend"
     },
     "web": {
       "output": "static",
@@ -37,6 +38,31 @@
           "dark": {
             "backgroundColor": "#000000"
           }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "../assets/fonts/BeVietnamPro-Thin.ttf",
+            "../assets/fonts/BeVietnamPro-ThinItalic.ttf",
+            "../assets/fonts/BeVietnamPro-ExtraLight.ttf",
+            "../assets/fonts/BeVietnamPro-ExtraLightItalic.ttf",
+            "../assets/fonts/BeVietnamPro-Light.ttf",
+            "../assets/fonts/BeVietnamPro-LightItalic.ttf",
+            "../assets/fonts/BeVietnamPro-Regular.ttf",
+            "../assets/fonts/BeVietnamPro-Italic.ttf",
+            "../assets/fonts/BeVietnamPro-Medium.ttf",
+            "../assets/fonts/BeVietnamPro-MediumItalic.ttf",
+            "../assets/fonts/BeVietnamPro-SemiBold.ttf",
+            "../assets/fonts/BeVietnamPro-SemiBoldItalic.ttf",
+            "../assets/fonts/BeVietnamPro-Bold.ttf",
+            "../assets/fonts/BeVietnamPro-BoldItalic.ttf",
+            "../assets/fonts/BeVietnamPro-ExtraBold.ttf",
+            "../assets/fonts/BeVietnamPro-ExtraBoldItalic.ttf",
+            "../assets/fonts/BeVietnamPro-Black.ttf",
+            "../assets/fonts/BeVietnamPro-BlackItalic.ttf"
+          ]
         }
       ]
     ],
